@@ -45,6 +45,7 @@ nav {
 
 .try-it:hover {
     border: 2px solid hsl(322, 100%, 66%);
+    cursor: pointer;
 }
 
 .hero-container {

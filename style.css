@@ -188,7 +188,6 @@ nav {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 290%;
 }
 
 .ready {
@@ -202,7 +201,7 @@ footer {
     padding-right: 185px;
     padding-top: 150px;
     background-color: hsl(192, 100%, 9%);
-    height: 265px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -414,8 +413,8 @@ footer {
 
     footer {
         flex-direction: column;
-        height: fit-content;
         padding: 0;
+        padding-bottom: 0;
         padding-top: 150px;
     }
 
@@ -425,5 +424,60 @@ footer {
 
     .branding {
         align-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+
+    .mid {
+        width: 100%;
+        justify-items: center;
+        padding: 0;
+    }
+
+    .mid-container {
+        width: 100%;
+    }
+
+    .title {}
+
+    .mid-container img {
+        width: 300px;
+        align-self: center;
+    }
+
+    .desc {
+        width: 70%;
+    }
+
+    .last {
+        align-items: center;
+    }
+
+    footer {
+        width: 768px;
+        padding: 65px;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer {
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .last {
+        top: 2150px;
+    }
+}
+
+@media (max-width: 1920px) {
+    .last {
+        top: 2130px;
     }
 }

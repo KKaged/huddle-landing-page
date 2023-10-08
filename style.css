@@ -105,6 +105,8 @@ nav {
     padding-right: 65px;
     padding-top: 150px;
     gap: 30px;
+    height: 1150px;
+    padding-bottom: 300px;
 }
 
 .mid-container {
@@ -150,4 +152,30 @@ nav {
 
 .image {
     width: 400px;
+}
+
+.last {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ccc;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+    position: absolute;
+    left: 25%;
+    top: 2100px;
+}
+
+.ready {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    height: 600px;
 }

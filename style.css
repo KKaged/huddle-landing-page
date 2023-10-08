@@ -5,10 +5,12 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(193, 100%, 96%);
 }
 
 .page-container {}
@@ -45,8 +47,9 @@ nav {
 }
 
 .try-it:hover {
-    border: 2px solid hsl(322, 100%, 66%);
+    border: 2px solid #ff52bf;
     cursor: pointer;
+    color: hsl(0, 0%, 36%);
 }
 
 .hero-container {
@@ -78,7 +81,7 @@ nav {
 }
 
 .get-started {
-    background-color: hsl(322, 100%, 66%);
+    background-color: #ff52bf;
     width: 250px;
     height: 50px;
     border-radius: 20px;
@@ -91,6 +94,7 @@ nav {
 
 .get-started:hover {
     cursor: pointer;
+    background: #ff8bd5;
 }
 
 .mockup {
@@ -166,7 +170,10 @@ nav {
     gap: 25px;
     padding: 50px;
     position: absolute;
-    left: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     top: 2100px;
 }
 
@@ -176,6 +183,77 @@ nav {
 }
 
 footer {
+    padding: 50px;
+    padding-left: 65px;
+    padding-right: 185px;
+    padding-top: 150px;
     background-color: hsl(192, 100%, 9%);
-    height: 600px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.last-logo {
+    filter: brightness(0) invert(1);
+}
+
+.mini-logo {
+    display: flex;
+    gap: 15px;
+}
+
+.mini-logo img {
+
+    padding: 5px;
+    display: flex;
+}
+
+
+.footer-desc {
+    color: hsl(193, 100%, 96%);
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.ftr-sec {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.copy {
+    color: hsl(193, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    opacity: 50%;
+}
+
+.branding {
+    display: flex;
+    gap: 30px;
+}
+
+.brand {
+    height: 30px;
+}
+
+.brand:hover {
+    filter: brightness(0) saturate(100%) invert(67%) sepia(94%) saturate(462%) hue-rotate(284deg) brightness(104%) contrast(101%);
+    cursor: pointer;
+}
+
+.ftr-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }

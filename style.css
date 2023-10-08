@@ -32,6 +32,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 50px;
 }
 
@@ -269,4 +270,148 @@ footer {
 .ftr-link:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media (max-width:414px) {
+    .header {
+        padding: 15px;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 60px;
+    }
+
+    .main-logo {
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .try-it {
+        height: 30px;
+        width: 25%;
+        font-size: x-small;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .left button {
+        height: 40px;
+        width: 300px;
+    }
+
+    .main-header {
+        display: flex;
+        flex-direction: row;
+        font-size: x-large;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mockup {
+        width: 270px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mid {
+        padding: 0;
+        padding-bottom: 220px;
+        padding-top: 50px;
+    }
+
+    .mid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mid-left {}
+
+    .title {
+        font-size: small;
+        align-self: center;
+    }
+
+    .desc {
+        font-size: small;
+        width: 250px;
+        align-self: center;
+    }
+
+    .mid-right {
+        width: 400px;
+    }
+
+    .mid-container img {
+        width: 5px;
+    }
+
+    .last {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+        height: 100px;
+        padding: 15px;
+        gap: 0;
+        position: absolute;
+        top: 2000px;
+    }
+
+    .ready {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .get-started {
+        width: 200px;
+        height: 100px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: fit-content;
+        padding: 0;
+        padding-top: 150px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
 }

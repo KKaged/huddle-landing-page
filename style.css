@@ -355,17 +355,23 @@ footer {
 
     .mid-container {
         display: flex;
+        width: 350px;
         flex-direction: column;
+        align-self: center;
     }
 
-    .mid-left {}
+    .mid-left,
+    .opposite {
+        order: 2;
+    }
 
     .title {
-        font-size: small;
+        font-size: large;
         align-self: center;
     }
 
     .desc {
+        text-align: center;
         font-size: small;
         width: 250px;
         align-self: center;
@@ -376,7 +382,8 @@ footer {
     }
 
     .mid-container img {
-        width: 5px;
+        width: 200px;
+        align-self: center;
     }
 
     .last {
@@ -414,5 +421,9 @@ footer {
 
     .info {
         flex-direction: column;
+    }
+
+    .branding {
+        align-self: center;
     }
 }

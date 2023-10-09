@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body {
+    width: 100%;
+}
 
 .attribution {
     font-size: 11px;
@@ -188,6 +191,7 @@ nav {
     right: 0;
     margin-left: auto;
     margin-right: auto;
+    top: 2130px;
 }
 
 .ready {
@@ -271,7 +275,8 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width:428px) {
+@media (max-width:428px) and (min-width:767px) {
+
     .header {
         padding: 15px;
     }
@@ -416,6 +421,7 @@ footer {
         padding: 0;
         padding-bottom: 0;
         padding-top: 150px;
+        width: 100%;
     }
 
     .info {
@@ -424,60 +430,5 @@ footer {
 
     .branding {
         align-self: center;
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        width: 100%;
-    }
-
-    .mid {
-        width: 100%;
-        justify-items: center;
-        padding: 0;
-    }
-
-    .mid-container {
-        width: 100%;
-    }
-
-    .title {}
-
-    .mid-container img {
-        width: 300px;
-        align-self: center;
-    }
-
-    .desc {
-        width: 70%;
-    }
-
-    .last {
-        align-items: center;
-    }
-
-    footer {
-        width: 768px;
-        padding: 65px;
-    }
-}
-
-@media (max-width: 1024px) {
-    footer {
-        height: 100%;
-    }
-}
-
-
-@media (max-width: 1600px) {
-    .last {
-        top: 2150px;
-    }
-}
-
-@media (max-width: 1920px) {
-    .last {
-        top: 2130px;
     }
 }

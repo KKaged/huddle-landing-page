@@ -275,7 +275,7 @@ footer {
     text-decoration: underline;
 }
 
-@media (max-width:428px) {
+@media (max-width:428px) and (min-width:374px) {
 
     .page-container {
         width: 100%;
@@ -286,7 +286,6 @@ footer {
         padding: 0;
         padding: 15px;
         padding-bottom: 65px;
-
     }
 
     .nav {
@@ -361,7 +360,7 @@ footer {
     .mid {
         display: flex;
         justify-content: center;
-        padding-bottom: 220px;
+        padding-bottom: 320px;
         padding-top: 150px;
         align-content: center;
     }
@@ -410,7 +409,7 @@ footer {
         padding: 15px;
         gap: 0;
         position: absolute;
-        top: 2150px;
+        top: 2260px;
     }
 
     .ready {

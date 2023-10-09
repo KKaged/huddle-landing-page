@@ -362,7 +362,7 @@ footer {
         display: flex;
         justify-content: center;
         padding-bottom: 220px;
-        padding-top: 100px;
+        padding-top: 150px;
         align-content: center;
     }
 
@@ -410,7 +410,7 @@ footer {
         padding: 15px;
         gap: 0;
         position: absolute;
-        top: 2100px;
+        top: 2150px;
     }
 
     .ready {
